@@ -3,31 +3,29 @@ using namespace std;
 
 int main()
 {
-    int low, high, i, flag;
+    int low, high, j;
 
-    cout << "Enter two numbers(intervals): "<< "\n";
+    cout << "Enter scope (two numbers): "<< "\n";
     cin >> low >> high;
 
-    cout << "Prime numbers between " << low << " and " << high << " are: "<< "\n" ;
+    cout << "Prime numbers in given scope are: "<< "\n" ;
 
     while (low < high)
     {
-        flag = 0;
+        j = 0;
 
-        for(i = 2; i <= low/2; ++i)
+        for(int i = 2; i <= low/2; ++i)
         {
             if(low % i == 0)
             {
-                flag = 1;
+                j = 1;
                 break;
             }
         }
 
-        if (flag == 0)
+        if (j == 0)
             cout << low << "\n";
-
-        ++low;
+            ++low;
     }
-
     return 0;
 }
