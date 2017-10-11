@@ -5,10 +5,10 @@ int main()
 {
     int low, high, i, flag;
 
-    cout << "Enter two numbers(intervals): ";
+    cout << "Enter two numbers(intervals): "<< "\n";
     cin >> low >> high;
 
-    cout << "Prime numbers between " << low << " and " << high << " are: ";
+    cout << "Prime numbers between " << low << " and " << high << " are: "<< "\n" ;
 
     while (low < high)
     {
@@ -24,7 +24,7 @@ int main()
         }
 
         if (flag == 0)
-            cout << low << " ";
+            cout << low << "\n";
 
         ++low;
     }

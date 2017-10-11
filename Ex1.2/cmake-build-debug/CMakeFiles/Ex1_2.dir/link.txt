@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Ex1_2.dir/main.cpp.o  -o Ex1_2 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Ex1_2.dir/main.cpp.o  -o Ex1_2 
