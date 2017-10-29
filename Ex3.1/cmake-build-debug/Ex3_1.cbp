@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bartoszgamza/Studia/Programming/Labs/Ex3.1/Classes.h">
-			<Option target="Ex3_1"/>
-		</Unit>
 		<Unit filename="/Users/bartoszgamza/Studia/Programming/Labs/Ex3.1/main.cpp">
 			<Option target="Ex3_1"/>
 		</Unit>
