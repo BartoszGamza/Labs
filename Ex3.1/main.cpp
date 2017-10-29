@@ -49,8 +49,8 @@ complex mul(complex c1, complex c2){
 
 complex div(complex c1, complex c2){
     complex c3;
-    c3.Re = (c1.Re * c2.Re) + (c1.Im * c2.Im) / (pow(c2.Re,2.0) + pow(c2.Im,2));
-    c3.Im = (c1.Im * c2.Re) - (c1.Re * c2.Im) / (pow(c2.Re,2.0) + pow(c2.Im,2));
+    c3.Re = ((c1.Re * c2.Re) + (c1.Im * c2.Im)) / (pow(c2.Re,2.0) + pow(c2.Im,2.0));
+    c3.Im = ((c1.Im * c2.Re) - (c1.Re * c2.Im)) / (pow(c2.Re,2.0) + pow(c2.Im,2.0));
     return c3;
 }
 
