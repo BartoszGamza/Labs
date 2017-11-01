@@ -10,7 +10,7 @@ public:
     }
 };
 
-class Car {
+class Car : Vehicle {
 private:
 public:
     void print(){
@@ -18,7 +18,7 @@ public:
     }
 };
 
-class Boat {
+class Boat : Vehicle{
 private:
 public:
     void print(){
@@ -26,7 +26,7 @@ public:
     }
 };
 
-class Amhibious {
+class Amhibious : Car, Boat {
 private:
 public:
     void print(){
